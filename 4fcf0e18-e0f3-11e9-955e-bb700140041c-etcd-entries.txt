@@ -1,0 +1,15 @@
+-- Logs begin at Wed 2019-10-02 18:29:29 UTC, end at Fri 2019-10-04 18:13:26 UTC. --
+Oct 04 17:54:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:54:29.180361 I | mvcc: store.index: compact 31944876
+Oct 04 17:54:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:54:29.189845 I | mvcc: finished scheduled compaction at 31944876 (took 7.14999ms)
+Oct 04 17:58:40 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:58:40.413244 I | etcdserver: start to snapshot (applied: 35274398, lastsnap: 35264397)
+Oct 04 17:58:40 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:58:40.414600 I | etcdserver: saved snapshot at index 35274398
+Oct 04 17:58:40 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:58:40.414818 I | etcdserver: compacted raft log at 35269398
+Oct 04 17:58:56 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:58:56.089719 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/000000000000000c-0000000002197b49.snap successfully
+Oct 04 17:59:24 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:59:24.110616 N | compactor: Starting auto-compaction at revision 31853211
+Oct 04 17:59:24 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:59:24.111169 N | compactor: Finished auto-compaction at revision 31853211
+Oct 04 17:59:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:59:29.190134 I | mvcc: store.index: compact 31946911
+Oct 04 17:59:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:59:29.199606 I | mvcc: finished scheduled compaction at 31946911 (took 8.262799ms)
+Oct 04 18:04:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 18:04:29.198079 I | mvcc: store.index: compact 31947665
+Oct 04 18:04:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 18:04:29.205493 I | mvcc: finished scheduled compaction at 31947665 (took 5.902981ms)
+Oct 04 18:09:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 18:09:29.204593 I | mvcc: store.index: compact 31948381
+Oct 04 18:09:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 18:09:29.212633 I | mvcc: finished scheduled compaction at 31948381 (took 6.591705ms)
