@@ -1,0 +1,15 @@
+-- Logs begin at Wed 2019-10-02 18:29:29 UTC, end at Fri 2019-10-04 17:24:56 UTC. --
+Oct 04 17:04:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:04:29.122164 I | mvcc: store.index: compact 31934975
+Oct 04 17:04:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:04:29.127648 I | mvcc: finished scheduled compaction at 31934975 (took 3.994952ms)
+Oct 04 17:09:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:09:29.128176 I | mvcc: store.index: compact 31935989
+Oct 04 17:09:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:09:29.137696 I | mvcc: finished scheduled compaction at 31935989 (took 7.829119ms)
+Oct 04 17:14:26 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:14:26.151624 I | etcdserver: start to snapshot (applied: 35264397, lastsnap: 35254396)
+Oct 04 17:14:26 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:14:26.153079 I | etcdserver: saved snapshot at index 35264397
+Oct 04 17:14:26 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:14:26.154088 I | etcdserver: compacted raft log at 35259397
+Oct 04 17:14:26 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:14:26.502676 I | wal: segmented wal file /var/lib/etcd/member/wal/0000000000000477-00000000021a1790.wal is created
+Oct 04 17:14:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:14:29.133517 I | mvcc: store.index: compact 31937080
+Oct 04 17:14:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:14:29.142515 I | mvcc: finished scheduled compaction at 31937080 (took 7.831725ms)
+Oct 04 17:14:56 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:14:56.031217 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/000000000000000c-0000000002195438.snap successfully
+Oct 04 17:14:56 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:14:56.039196 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/0000000000000472-000000000217c140.wal successfully
+Oct 04 17:19:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:19:29.138569 I | mvcc: store.index: compact 31938134
+Oct 04 17:19:29 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 17:19:29.147978 I | mvcc: finished scheduled compaction at 31938134 (took 8.148631ms)
