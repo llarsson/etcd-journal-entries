@@ -1,0 +1,14 @@
+-- Logs begin at Wed 2019-10-02 13:10:06 UTC, end at Fri 2019-10-04 08:01:25 UTC. --
+Oct 04 07:39:25 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:39:25.313892 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/000000000000000c-0000000002177f6c.snap successfully
+Oct 04 07:39:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:39:28.254662 I | mvcc: store.index: compact 31824540
+Oct 04 07:39:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:39:28.258956 I | mvcc: finished scheduled compaction at 31824540 (took 3.251137ms)
+Oct 04 07:44:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:44:28.262842 I | mvcc: store.index: compact 31826150
+Oct 04 07:44:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:44:28.276614 I | mvcc: finished scheduled compaction at 31826150 (took 11.859747ms)
+Oct 04 07:49:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:49:28.273856 I | mvcc: store.index: compact 31827221
+Oct 04 07:49:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:49:28.284656 I | mvcc: finished scheduled compaction at 31827221 (took 5.754563ms)
+Oct 04 07:54:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:54:28.283153 I | mvcc: store.index: compact 31828276
+Oct 04 07:54:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:54:28.289429 I | mvcc: finished scheduled compaction at 31828276 (took 5.32411ms)
+Oct 04 07:59:24 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:59:24.053469 N | compactor: Starting auto-compaction at revision 31738509
+Oct 04 07:59:24 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:59:24.054480 N | compactor: Finished auto-compaction at revision 31738509
+Oct 04 07:59:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:59:28.293605 I | mvcc: store.index: compact 31829214
+Oct 04 07:59:28 openhouse-demo-k8s-master-1 etcd[15358]: 2019-10-04 07:59:28.300080 I | mvcc: finished scheduled compaction at 31829214 (took 5.124131ms)
