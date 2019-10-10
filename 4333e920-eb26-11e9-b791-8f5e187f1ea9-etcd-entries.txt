@@ -1,0 +1,16 @@
+-- Logs begin at Mon 2019-10-07 09:29:53 UTC, end at Thu 2019-10-10 18:16:58 UTC. --
+Oct 10 17:57:32 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 17:57:32.674635 I | mvcc: store.index: compact 32178464
+Oct 10 17:57:32 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 17:57:32.679669 I | mvcc: finished scheduled compaction at 32178464 (took 3.905488ms)
+Oct 10 18:02:32 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:02:32.766247 I | mvcc: store.index: compact 32179254
+Oct 10 18:02:32 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:02:32.776690 I | mvcc: finished scheduled compaction at 32179254 (took 8.241524ms)
+Oct 10 18:07:32 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:07:32.779621 I | mvcc: store.index: compact 32180021
+Oct 10 18:07:32 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:07:32.785054 I | mvcc: finished scheduled compaction at 32180021 (took 3.997481ms)
+Oct 10 18:07:33 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:07:32.999296 W | etcdserver: read-only range request "key:\"/registry/events\" range_end:\"/registry/eventt\" count_only:true " with result "range_response_count:0 size:10" took too long (194.423737ms) to execute
+Oct 10 18:08:18 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:08:18.690780 W | etcdserver: read-only range request "key:\"/registry/pods/default/backend-844b95fc6f-pw99w\" " with result "range_response_count:1 size:1735" took too long (111.195342ms) to execute
+Oct 10 18:08:18 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:08:18.691215 W | etcdserver: read-only range request "key:\"/registry/events/default/backend-844b95fc6f-pw99w.15cc5ab5347b43d8\" " with result "range_response_count:1 size:468" took too long (553.062286ms) to execute
+Oct 10 18:08:18 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:08:18.693369 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-scheduler\" " with result "range_response_count:1 size:458" took too long (401.535568ms) to execute
+Oct 10 18:10:11 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:10:11.826414 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/default/kubernetes\" " with result "range_response_count:1 size:211" took too long (283.531951ms) to execute
+Oct 10 18:12:32 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:12:32.791651 I | mvcc: store.index: compact 32180770
+Oct 10 18:12:32 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:12:32.797356 I | mvcc: finished scheduled compaction at 32180770 (took 4.701836ms)
+Oct 10 18:13:23 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:13:23.822184 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (218.900836ms) to execute
+Oct 10 18:13:23 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:13:23.822408 W | etcdserver: read-only range request "key:\"/registry/networkpolicies\" range_end:\"/registry/networkpoliciet\" count_only:true " with result "range_response_count:0 size:7" took too long (201.518804ms) to execute
