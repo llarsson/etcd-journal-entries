@@ -1,0 +1,14 @@
+-- Logs begin at Mon 2019-10-07 09:29:53 UTC, end at Thu 2019-10-10 14:10:09 UTC. --
+Oct 10 13:50:37 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:50:37.518140 I | etcdserver: start to snapshot (applied: 35494420, lastsnap: 35484419)
+Oct 10 13:50:37 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:50:37.574973 I | etcdserver: saved snapshot at index 35494420
+Oct 10 13:50:37 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:50:37.575779 I | etcdserver: compacted raft log at 35489420
+Oct 10 13:50:53 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:50:53.674181 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/000000000000000e-00000000021cd6bf.snap successfully
+Oct 10 13:52:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:52:28.646963 I | mvcc: store.index: compact 32130944
+Oct 10 13:52:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:52:28.652815 I | mvcc: finished scheduled compaction at 32130944 (took 4.562887ms)
+Oct 10 13:57:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:57:28.709737 I | mvcc: store.index: compact 32131816
+Oct 10 13:57:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:57:28.716599 I | mvcc: finished scheduled compaction at 32131816 (took 5.098731ms)
+Oct 10 13:57:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 13:57:28.982606 W | etcdserver: read-only range request "key:\"/registry/secrets/istio-system/prometheus-token-wzm2w\" " with result "range_response_count:1 size:2314" took too long (136.609579ms) to execute
+Oct 10 14:02:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 14:02:28.725463 I | mvcc: store.index: compact 32132434
+Oct 10 14:02:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 14:02:28.731772 I | mvcc: finished scheduled compaction at 32132434 (took 4.64374ms)
+Oct 10 14:07:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 14:07:28.740245 I | mvcc: store.index: compact 32133061
+Oct 10 14:07:28 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 14:07:28.746013 I | mvcc: finished scheduled compaction at 32133061 (took 3.710122ms)
