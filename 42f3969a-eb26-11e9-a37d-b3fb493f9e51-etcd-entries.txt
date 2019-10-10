@@ -1,0 +1,16 @@
+-- Logs begin at Mon 2019-10-07 09:29:53 UTC, end at Thu 2019-10-10 10:54:31 UTC. --
+Oct 10 10:34:18 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:34:18.400514 I | etcdserver: start to snapshot (applied: 35454416, lastsnap: 35444415)
+Oct 10 10:34:18 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:34:18.445093 I | etcdserver: saved snapshot at index 35454416
+Oct 10 10:34:18 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:34:18.445486 I | etcdserver: compacted raft log at 35449416
+Oct 10 10:34:23 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:34:23.425680 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/000000000000000e-00000000021c3a7b.snap successfully
+Oct 10 10:37:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:37:26.299045 I | mvcc: store.index: compact 32093798
+Oct 10 10:37:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:37:26.308086 I | mvcc: finished scheduled compaction at 32093798 (took 6.329741ms)
+Oct 10 10:42:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:42:26.316494 I | mvcc: store.index: compact 32094593
+Oct 10 10:42:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:42:26.322969 I | mvcc: finished scheduled compaction at 32094593 (took 4.790021ms)
+Oct 10 10:47:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:47:26.411504 I | mvcc: store.index: compact 32095420
+Oct 10 10:47:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:47:26.424093 I | mvcc: finished scheduled compaction at 32095420 (took 9.223623ms)
+Oct 10 10:52:12 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:52:12.938395 W | etcdserver: read-only range request "key:\"/registry/pods/default/backend-844b95fc6f-67xmd\" " with result "range_response_count:1 size:1854" took too long (236.000746ms) to execute
+Oct 10 10:52:12 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:52:12.938563 W | etcdserver: read-only range request "key:\"/registry/pods/default/backend-844b95fc6f-pt7dq\" " with result "range_response_count:1 size:1855" took too long (167.568463ms) to execute
+Oct 10 10:52:12 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:52:12.938639 W | etcdserver: read-only range request "key:\"/registry/configmaps/kube-system/dns-autoscaler\" " with result "range_response_count:1 size:285" took too long (332.167039ms) to execute
+Oct 10 10:52:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:52:26.448781 I | mvcc: store.index: compact 32096131
+Oct 10 10:52:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 10:52:26.458930 I | mvcc: finished scheduled compaction at 32096131 (took 8.69465ms)
