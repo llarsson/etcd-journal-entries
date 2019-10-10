@@ -1,0 +1,15 @@
+-- Logs begin at Mon 2019-10-07 09:29:53 UTC, end at Thu 2019-10-10 19:05:52 UTC. --
+Oct 10 18:45:17 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:45:17.303878 I | etcdserver: start to snapshot (applied: 35554436, lastsnap: 35544435)
+Oct 10 18:45:17 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:45:17.376981 I | etcdserver: saved snapshot at index 35554436
+Oct 10 18:45:17 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:45:17.377217 I | etcdserver: compacted raft log at 35549436
+Oct 10 18:45:24 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:45:24.668970 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/000000000000000e-00000000021dc125.snap successfully
+Oct 10 18:47:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:47:34.280534 I | mvcc: store.index: compact 32187146
+Oct 10 18:47:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:47:34.286703 I | mvcc: finished scheduled compaction at 32187146 (took 4.832361ms)
+Oct 10 18:52:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:52:34.297673 I | mvcc: store.index: compact 32188042
+Oct 10 18:52:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:52:34.306032 I | mvcc: finished scheduled compaction at 32188042 (took 6.642606ms)
+Oct 10 18:57:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:57:34.312391 I | mvcc: store.index: compact 32188648
+Oct 10 18:57:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:57:34.322933 I | mvcc: finished scheduled compaction at 32188648 (took 8.383423ms)
+Oct 10 18:57:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 18:57:34.509414 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (118.345704ms) to execute
+Oct 10 19:00:27 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 19:00:27.322872 W | etcdserver: read-only range request "key:\"/registry/deployments/istio-system/istio-ingressgateway\" " with result "range_response_count:1 size:6185" took too long (105.359658ms) to execute
+Oct 10 19:02:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 19:02:34.327884 I | mvcc: store.index: compact 32189228
+Oct 10 19:02:34 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-10 19:02:34.333787 I | mvcc: finished scheduled compaction at 32189228 (took 4.675884ms)
