@@ -1,0 +1,11 @@
+-- Logs begin at Mon 2019-10-07 20:18:05 UTC, end at Fri 2019-10-11 15:07:18 UTC. --
+Oct 11 14:47:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:47:45.832041 I | mvcc: store.index: compact 32362512
+Oct 11 14:47:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:47:45.839650 I | mvcc: finished scheduled compaction at 32362512 (took 4.876773ms)
+Oct 11 14:52:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:52:45.862590 I | mvcc: store.index: compact 32364150
+Oct 11 14:52:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:52:45.874384 I | mvcc: finished scheduled compaction at 32364150 (took 9.165024ms)
+Oct 11 14:52:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:52:46.397658 W | etcdserver: request "header:<ID:14919138748427727746 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > txn:<compare:<target:MOD key:\"/registry/minions/openhouse-demo-k8s-node-nf-1\" mod_revision:32365165 > success:<request_put:<key:\"/registry/minions/openhouse-demo-k8s-node-nf-1\" value_size:5896 >> failure:<request_range:<key:\"/registry/minions/openhouse-demo-k8s-node-nf-1\" > >>" with result "size:20" took too long (293.316247ms) to execute
+Oct 11 14:57:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:57:45.897067 I | mvcc: store.index: compact 32365192
+Oct 11 14:57:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:57:45.904521 I | mvcc: finished scheduled compaction at 32365192 (took 6.367412ms)
+Oct 11 14:57:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:57:46.142687 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (143.098991ms) to execute
+Oct 11 15:02:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 15:02:45.910022 I | mvcc: store.index: compact 32366125
+Oct 11 15:02:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 15:02:45.916179 I | mvcc: finished scheduled compaction at 32366125 (took 4.619548ms)
