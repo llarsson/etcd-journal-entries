@@ -1,0 +1,17 @@
+-- Logs begin at Mon 2019-10-07 20:18:05 UTC, end at Fri 2019-10-11 14:42:50 UTC. --
+Oct 11 14:22:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:22:45.695280 I | mvcc: store.index: compact 32359063
+Oct 11 14:22:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:22:45.702235 I | mvcc: finished scheduled compaction at 32359063 (took 5.484484ms)
+Oct 11 14:27:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:27:45.709201 I | mvcc: store.index: compact 32360047
+Oct 11 14:27:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:27:45.717130 I | mvcc: finished scheduled compaction at 32360047 (took 6.818337ms)
+Oct 11 14:30:17 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:30:17.082283 W | etcdserver: read-only range request "key:\"/registry/deployments/istio-system/istio-pilot\" " with result "range_response_count:1 size:5928" took too long (379.363481ms) to execute
+Oct 11 14:30:17 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:30:17.082473 W | etcdserver: read-only range request "key:\"/registry/minions/openhouse-demo-k8s-node-1\" " with result "range_response_count:1 size:5252" took too long (176.383829ms) to execute
+Oct 11 14:32:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:32:26.783956 N | compactor: Starting auto-compaction at revision 32269280
+Oct 11 14:32:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:32:26.784291 N | compactor: Finished auto-compaction at revision 32269280
+Oct 11 14:32:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:32:45.727233 I | mvcc: store.index: compact 32360641
+Oct 11 14:32:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:32:45.732987 I | mvcc: finished scheduled compaction at 32360641 (took 4.160282ms)
+Oct 11 14:37:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:37:45.741537 I | mvcc: store.index: compact 32361256
+Oct 11 14:37:45 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:37:45.748186 I | mvcc: finished scheduled compaction at 32361256 (took 5.122298ms)
+Oct 11 14:40:15 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:40:15.615541 I | etcdserver: start to snapshot (applied: 35744456, lastsnap: 35734455)
+Oct 11 14:40:15 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:40:15.738514 I | etcdserver: saved snapshot at index 35744456
+Oct 11 14:40:15 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:40:15.738829 I | etcdserver: compacted raft log at 35739456
+Oct 11 14:40:26 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 14:40:26.156194 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/000000000000000e-000000000220a772.snap successfully
