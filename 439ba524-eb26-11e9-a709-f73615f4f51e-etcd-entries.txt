@@ -1,0 +1,15 @@
+-- Logs begin at Mon 2019-10-07 20:18:05 UTC, end at Fri 2019-10-11 16:20:44 UTC. --
+Oct 11 16:02:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:02:46.223567 I | mvcc: store.index: compact 32378799
+Oct 11 16:02:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:02:46.229209 I | mvcc: finished scheduled compaction at 32378799 (took 3.842935ms)
+Oct 11 16:04:53 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:04:53.654574 W | etcdserver: request "header:<ID:14919138748427778780 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > txn:<compare:<target:MOD key:\"/registry/deployments/default/backend\" mod_revision:32379958 > success:<request_put:<key:\"/registry/deployments/default/backend\" value_size:1831 >> failure:<request_range:<key:\"/registry/deployments/default/backend\" > >>" with result "size:20" took too long (133.046975ms) to execute
+Oct 11 16:07:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:07:46.238640 I | mvcc: store.index: compact 32379585
+Oct 11 16:07:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:07:46.243970 I | mvcc: finished scheduled compaction at 32379585 (took 4.180208ms)
+Oct 11 16:11:54 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:11:54.603314 I | etcdserver: start to snapshot (applied: 35764458, lastsnap: 35754457)
+Oct 11 16:11:54 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:11:54.883024 I | etcdserver: saved snapshot at index 35764458
+Oct 11 16:11:54 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:11:54.883214 I | etcdserver: compacted raft log at 35759458
+Oct 11 16:11:56 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:11:56.270885 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/000000000000000e-000000000220f594.snap successfully
+Oct 11 16:12:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:12:46.249871 I | mvcc: store.index: compact 32380361
+Oct 11 16:12:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:12:46.255853 I | mvcc: finished scheduled compaction at 32380361 (took 4.876634ms)
+Oct 11 16:13:50 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:13:50.778883 W | etcdserver: read-only range request "key:\"/registry/events/default/backend-844b95fc6f-xbx8b.15cca2f1049af7a1\" " with result "range_response_count:1 size:561" took too long (145.078747ms) to execute
+Oct 11 16:17:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:17:46.285465 I | mvcc: store.index: compact 32381140
+Oct 11 16:17:46 openhouse-demo-k8s-master-1 etcd[1491]: 2019-10-11 16:17:46.290776 I | mvcc: finished scheduled compaction at 32381140 (took 4.235561ms)
