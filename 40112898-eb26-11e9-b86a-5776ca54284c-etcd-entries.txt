@@ -1,0 +1,15 @@
+-- Logs begin at Thu 2019-10-10 12:34:44 UTC, end at Mon 2019-10-14 18:57:40 UTC. --
+Oct 14 18:37:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:37:47.403186 I | mvcc: store.index: compact 32910849
+Oct 14 18:37:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:37:47.409533 I | mvcc: finished scheduled compaction at 32910849 (took 4.344198ms)
+Oct 14 18:42:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:42:47.409743 I | mvcc: store.index: compact 32911706
+Oct 14 18:42:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:42:47.418719 I | mvcc: finished scheduled compaction at 32911706 (took 7.498266ms)
+Oct 14 18:47:29 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:47:29.930294 N | compactor: Starting auto-compaction at revision 32820575
+Oct 14 18:47:29 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:47:29.930896 N | compactor: Finished auto-compaction at revision 32820575
+Oct 14 18:47:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:47:47.415031 I | mvcc: store.index: compact 32912943
+Oct 14 18:47:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:47:47.423574 I | mvcc: finished scheduled compaction at 32912943 (took 7.388974ms)
+Oct 14 18:52:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:52:47.424028 I | mvcc: store.index: compact 32913953
+Oct 14 18:52:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:52:47.432480 I | mvcc: finished scheduled compaction at 32913953 (took 6.899142ms)
+Oct 14 18:52:48 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:52:48.616870 I | etcdserver: start to snapshot (applied: 36354517, lastsnap: 36344516)
+Oct 14 18:52:48 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:52:48.618674 I | etcdserver: saved snapshot at index 36354517
+Oct 14 18:52:48 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:52:48.619744 I | etcdserver: compacted raft log at 36349517
+Oct 14 18:53:00 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 18:53:00.708978 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000010-000000000229f680.snap successfully
