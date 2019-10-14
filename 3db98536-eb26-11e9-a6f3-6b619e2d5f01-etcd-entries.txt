@@ -1,0 +1,15 @@
+-- Logs begin at Thu 2019-10-10 12:34:44 UTC, end at Mon 2019-10-14 17:20:56 UTC. --
+Oct 14 17:02:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:02:47.256382 I | mvcc: store.index: compact 32891999
+Oct 14 17:02:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:02:47.265075 I | mvcc: finished scheduled compaction at 32891999 (took 6.863725ms)
+Oct 14 17:07:30 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:07:30.197463 I | wal: segmented wal file /var/lib/etcd/member/wal/000000000000049d-00000000022a63f0.wal is created
+Oct 14 17:07:30 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:07:30.589420 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/0000000000000498-000000000228191d.wal successfully
+Oct 14 17:07:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:07:47.264025 I | mvcc: store.index: compact 32893140
+Oct 14 17:07:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:07:47.274457 I | mvcc: finished scheduled compaction at 32893140 (took 8.139074ms)
+Oct 14 17:12:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:12:47.271164 I | mvcc: store.index: compact 32894173
+Oct 14 17:12:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:12:47.280789 I | mvcc: finished scheduled compaction at 32894173 (took 8.343085ms)
+Oct 14 17:17:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:17:47.276938 I | mvcc: store.index: compact 32895094
+Oct 14 17:17:47 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:17:47.286741 I | mvcc: finished scheduled compaction at 32895094 (took 8.164235ms)
+Oct 14 17:18:21 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:18:21.452873 I | etcdserver: start to snapshot (applied: 36334515, lastsnap: 36324514)
+Oct 14 17:18:21 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:18:21.454422 I | etcdserver: saved snapshot at index 36334515
+Oct 14 17:18:21 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:18:21.455179 I | etcdserver: compacted raft log at 36329515
+Oct 14 17:18:30 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-14 17:18:30.590749 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000010-000000000229a85e.snap successfully
