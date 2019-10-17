@@ -1,0 +1,15 @@
+-- Logs begin at Fri 2019-10-11 10:17:40 UTC, end at Thu 2019-10-17 08:34:07 UTC. --
+Oct 17 08:12:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:12:52.360040 I | mvcc: store.index: compact 33394668
+Oct 17 08:12:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:12:52.368157 I | mvcc: finished scheduled compaction at 33394668 (took 6.657649ms)
+Oct 17 08:17:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:17:52.365898 I | mvcc: store.index: compact 33395505
+Oct 17 08:17:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:17:52.371327 I | mvcc: finished scheduled compaction at 33395505 (took 3.783318ms)
+Oct 17 08:22:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:22:52.372419 I | mvcc: store.index: compact 33396623
+Oct 17 08:22:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:22:52.381724 I | mvcc: finished scheduled compaction at 33396623 (took 8.125609ms)
+Oct 17 08:27:39 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:27:39.964210 I | etcdserver: start to snapshot (applied: 36884571, lastsnap: 36874570)
+Oct 17 08:27:39 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:27:39.969389 I | etcdserver: saved snapshot at index 36884571
+Oct 17 08:27:39 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:27:39.969919 I | etcdserver: compacted raft log at 36879571
+Oct 17 08:27:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:27:52.379083 I | mvcc: store.index: compact 33397682
+Oct 17 08:27:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:27:52.388248 I | mvcc: finished scheduled compaction at 33397682 (took 7.074753ms)
+Oct 17 08:28:04 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:28:04.206396 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000010-0000000002320d06.snap successfully
+Oct 17 08:32:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:32:52.386382 I | mvcc: store.index: compact 33398526
+Oct 17 08:32:52 openhouse-demo-k8s-master-1 etcd[1907]: 2019-10-17 08:32:52.393692 I | mvcc: finished scheduled compaction at 33398526 (took 5.963515ms)
