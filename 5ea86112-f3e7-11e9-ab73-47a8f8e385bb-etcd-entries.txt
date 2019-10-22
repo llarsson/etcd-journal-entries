@@ -1,0 +1,13 @@
+-- Logs begin at Tue 2019-10-22 12:00:32 UTC, end at Tue 2019-10-22 20:02:24 UTC. --
+Oct 22 19:42:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:42:15.304237 I | mvcc: store.index: compact 33542916
+Oct 22 19:42:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:42:15.310006 I | mvcc: finished scheduled compaction at 33542916 (took 4.316247ms)
+Oct 22 19:47:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:47:15.316738 I | mvcc: store.index: compact 33544806
+Oct 22 19:47:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:47:15.328660 I | mvcc: finished scheduled compaction at 33544806 (took 9.994112ms)
+Oct 22 19:47:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:47:15.894828 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-scheduler\" " with result "range_response_count:1 size:458" took too long (243.894095ms) to execute
+Oct 22 19:47:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:47:15.894868 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/kubernetes-dashboard-token-lvfxb\" " with result "range_response_count:1 size:2374" took too long (407.861144ms) to execute
+Oct 22 19:47:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:47:15.895010 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (422.465866ms) to execute
+Oct 22 19:52:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:52:15.331968 I | mvcc: store.index: compact 33545544
+Oct 22 19:52:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:52:15.341742 I | mvcc: finished scheduled compaction at 33545544 (took 4.843852ms)
+Oct 22 19:52:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:52:15.613457 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/horizontal-pod-autoscaler-token-5nhfp\" " with result "range_response_count:1 size:2409" took too long (100.782453ms) to execute
+Oct 22 19:57:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:57:15.347062 I | mvcc: store.index: compact 33546225
+Oct 22 19:57:15 openhouse-demo-k8s-master-1 etcd[1781]: 2019-10-22 19:57:15.353583 I | mvcc: finished scheduled compaction at 33546225 (took 5.061252ms)
