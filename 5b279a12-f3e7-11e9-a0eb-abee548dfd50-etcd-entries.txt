@@ -1,0 +1,9 @@
+-- Logs begin at Wed 2019-10-23 12:16:26 UTC, end at Thu 2019-10-24 01:02:30 UTC. --
+Oct 24 00:43:33 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-24 00:43:33.156669 I | mvcc: store.index: compact 33799659
+Oct 24 00:43:33 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-24 00:43:33.163814 I | mvcc: finished scheduled compaction at 33799659 (took 4.500767ms)
+Oct 24 00:48:33 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-24 00:48:33.166235 I | mvcc: store.index: compact 33801984
+Oct 24 00:48:33 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-24 00:48:33.180824 I | mvcc: finished scheduled compaction at 33801984 (took 12.394847ms)
+Oct 24 00:53:33 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-24 00:53:33.173572 I | mvcc: store.index: compact 33802548
+Oct 24 00:53:33 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-24 00:53:33.184856 I | mvcc: finished scheduled compaction at 33802548 (took 7.716866ms)
+Oct 24 00:58:33 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-24 00:58:33.182473 I | mvcc: store.index: compact 33803098
+Oct 24 00:58:33 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-24 00:58:33.190188 I | mvcc: finished scheduled compaction at 33803098 (took 5.413005ms)
