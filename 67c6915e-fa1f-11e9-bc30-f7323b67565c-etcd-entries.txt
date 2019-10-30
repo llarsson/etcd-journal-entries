@@ -1,0 +1,11 @@
+-- Logs begin at Wed 2019-10-23 12:16:26 UTC, end at Wed 2019-10-30 14:57:20 UTC. --
+Oct 30 14:43:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:43:46.094056 I | mvcc: store.index: compact 34999280
+Oct 30 14:43:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:43:46.101256 I | mvcc: finished scheduled compaction at 34999280 (took 5.499019ms)
+Oct 30 14:48:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:48:46.100625 I | mvcc: store.index: compact 35000234
+Oct 30 14:48:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:48:46.106284 I | mvcc: finished scheduled compaction at 35000234 (took 4.060624ms)
+Oct 30 14:52:57 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:52:57.390189 I | etcdserver: start to snapshot (applied: 38654796, lastsnap: 38644795)
+Oct 30 14:52:57 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:52:57.391568 I | etcdserver: saved snapshot at index 38654796
+Oct 30 14:52:57 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:52:57.392440 I | etcdserver: compacted raft log at 38649796
+Oct 30 14:53:08 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:53:08.466839 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000015-00000000024d0ff7.snap successfully
+Oct 30 14:53:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:53:46.106029 I | mvcc: store.index: compact 35000746
+Oct 30 14:53:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 14:53:46.112201 I | mvcc: finished scheduled compaction at 35000746 (took 5.189887ms)
