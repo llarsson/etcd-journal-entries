@@ -1,0 +1,9 @@
+-- Logs begin at Wed 2019-10-23 23:45:35 UTC, end at Wed 2019-10-30 22:49:22 UTC. --
+Oct 30 22:33:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 22:33:46.706314 I | mvcc: store.index: compact 35059492
+Oct 30 22:33:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 22:33:46.710392 I | mvcc: finished scheduled compaction at 35059492 (took 2.919905ms)
+Oct 30 22:38:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 22:38:46.711250 I | mvcc: store.index: compact 35060468
+Oct 30 22:38:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 22:38:46.717876 I | mvcc: finished scheduled compaction at 35060468 (took 5.327724ms)
+Oct 30 22:41:19 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 22:41:19.245454 I | wal: segmented wal file /var/lib/etcd/member/wal/00000000000004ef-00000000024ed4aa.wal is created
+Oct 30 22:41:39 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 22:41:39.265567 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/00000000000004ea-00000000024c87b6.wal successfully
+Oct 30 22:43:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 22:43:46.716287 I | mvcc: store.index: compact 35060985
+Oct 30 22:43:46 openhouse-demo-k8s-master-1 etcd[9771]: 2019-10-30 22:43:46.721360 I | mvcc: finished scheduled compaction at 35060985 (took 3.722259ms)
