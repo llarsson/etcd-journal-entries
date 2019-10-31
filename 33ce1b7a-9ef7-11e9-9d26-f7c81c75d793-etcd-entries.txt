@@ -1,0 +1,15 @@
+-- Logs begin at Thu 2019-10-24 21:08:27 UTC, end at Thu 2019-10-31 11:35:54 UTC. --
+Oct 31 11:15:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:15:31.811511 W | etcdserver: read-only range request "key:\"/registry/cronjobs/\" range_end:\"/registry/cronjobs0\" " with result "range_response_count:0 size:7" took too long (139.794997ms) to execute
+Oct 31 11:15:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:15:31.813322 W | etcdserver: read-only range request "key:\"/registry/events/default/backend-844b95fc6f.15d2b6f80f058dae\" " with result "range_response_count:1 size:485" took too long (130.937803ms) to execute
+Oct 31 11:16:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:16:05.176448 I | mvcc: store.index: compact 35160911
+Oct 31 11:16:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:16:05.182231 I | mvcc: finished scheduled compaction at 35160911 (took 4.550805ms)
+Oct 31 11:21:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:21:05.212159 I | mvcc: store.index: compact 35161914
+Oct 31 11:21:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:21:05.220236 I | mvcc: finished scheduled compaction at 35161914 (took 5.576348ms)
+Oct 31 11:21:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:21:05.532170 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/prometheus-operator-prometheus-token-bcwsw\" " with result "range_response_count:1 size:2448" took too long (260.675264ms) to execute
+Oct 31 11:26:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:26:05.225068 I | mvcc: store.index: compact 35162699
+Oct 31 11:26:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:26:05.230788 I | mvcc: finished scheduled compaction at 35162699 (took 4.520588ms)
+Oct 31 11:26:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:26:05.464846 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (136.872294ms) to execute
+Oct 31 11:26:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:26:05.465160 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/prometheus-operator-prometheus-token-bcwsw\" " with result "range_response_count:1 size:2448" took too long (197.950217ms) to execute
+Oct 31 11:31:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:31:05.237800 I | mvcc: store.index: compact 35163399
+Oct 31 11:31:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:31:05.245078 I | mvcc: finished scheduled compaction at 35163399 (took 5.521347ms)
+Oct 31 11:31:05 openhouse-demo-k8s-master-1 etcd[6343]: 2019-10-31 11:31:05.453245 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/prometheus-operator-prometheus-token-bcwsw\" " with result "range_response_count:1 size:2448" took too long (179.281671ms) to execute
