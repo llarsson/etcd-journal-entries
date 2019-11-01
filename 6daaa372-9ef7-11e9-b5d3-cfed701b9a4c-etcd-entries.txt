@@ -1,0 +1,11 @@
+-- Logs begin at Sun 2019-10-27 23:59:01 UTC, end at Fri 2019-11-01 10:28:50 UTC. --
+Nov 01 10:11:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:11:31.805646 I | mvcc: store.index: compact 35388712
+Nov 01 10:11:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:11:31.816927 I | mvcc: finished scheduled compaction at 35388712 (took 8.965533ms)
+Nov 01 10:11:32 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:11:32.443006 W | etcdserver: read-only range request "key:\"/registry/networkpolicies\" range_end:\"/registry/networkpoliciet\" count_only:true " with result "range_response_count:0 size:7" took too long (440.140833ms) to execute
+Nov 01 10:16:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:16:31.818656 I | mvcc: store.index: compact 35389632
+Nov 01 10:16:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:16:31.826382 I | mvcc: finished scheduled compaction at 35389632 (took 5.980139ms)
+Nov 01 10:16:32 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:16:32.100433 W | etcdserver: read-only range request "key:\"/registry/horizontalpodautoscalers\" range_end:\"/registry/horizontalpodautoscalert\" count_only:true " with result "range_response_count:0 size:9" took too long (162.393785ms) to execute
+Nov 01 10:21:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:21:31.906188 I | mvcc: store.index: compact 35390560
+Nov 01 10:21:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:21:31.914148 I | mvcc: finished scheduled compaction at 35390560 (took 6.399072ms)
+Nov 01 10:26:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:26:31.930717 I | mvcc: store.index: compact 35391474
+Nov 01 10:26:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 10:26:31.937490 I | mvcc: finished scheduled compaction at 35391474 (took 5.576971ms)
