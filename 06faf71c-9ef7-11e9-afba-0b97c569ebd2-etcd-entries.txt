@@ -1,0 +1,17 @@
+-- Logs begin at Tue 2019-10-29 00:05:09 UTC, end at Fri 2019-11-01 21:13:57 UTC. --
+Nov 01 20:56:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 20:56:37.106533 I | mvcc: store.index: compact 35496863
+Nov 01 20:56:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 20:56:37.120629 I | mvcc: finished scheduled compaction at 35496863 (took 10.710495ms)
+Nov 01 21:00:17 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:00:17.537674 W | etcdserver: read-only range request "key:\"/registry/pods/default/\" range_end:\"/registry/pods/default0\" limit:500 " with result "range_response_count:2 size:3712" took too long (239.025088ms) to execute
+Nov 01 21:01:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:01:37.223060 I | mvcc: store.index: compact 35497762
+Nov 01 21:01:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:01:37.224951 W | etcdserver: request "header:<ID:14919139277657636884 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > compaction:<revision:35497762 > " with result "size:7" took too long (103.365647ms) to execute
+Nov 01 21:01:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:01:37.232407 I | mvcc: finished scheduled compaction at 35497762 (took 7.496388ms)
+Nov 01 21:01:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:01:37.523593 W | etcdserver: request "header:<ID:14919139277657636885 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > txn:<compare:<target:MOD key:\"/registry/minions/openhouse-demo-k8s-node-nf-2\" mod_revision:35498426 > success:<request_put:<key:\"/registry/minions/openhouse-demo-k8s-node-nf-2\" value_size:6088 >> failure:<request_range:<key:\"/registry/minions/openhouse-demo-k8s-node-nf-2\" > >>" with result "size:20" took too long (133.030962ms) to execute
+Nov 01 21:06:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:06:07.946749 I | etcdserver: start to snapshot (applied: 39194852, lastsnap: 39184851)
+Nov 01 21:06:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:06:08.107833 I | etcdserver: saved snapshot at index 39194852
+Nov 01 21:06:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:06:08.108403 I | etcdserver: compacted raft log at 39189852
+Nov 01 21:06:34 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:06:34.214104 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000017-0000000002554d8f.snap successfully
+Nov 01 21:06:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:06:37.315414 I | mvcc: store.index: compact 35498443
+Nov 01 21:06:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:06:37.324177 I | mvcc: finished scheduled compaction at 35498443 (took 6.467698ms)
+Nov 01 21:11:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:11:37.330918 I | mvcc: store.index: compact 35499017
+Nov 01 21:11:37 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:11:37.336921 I | mvcc: finished scheduled compaction at 35499017 (took 4.374086ms)
+Nov 01 21:11:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-01 21:11:51.491580 W | etcdserver: request "header:<ID:14919139277657641668 > lease_revoke:<id:4f0b6e20c75c9236>" with result "size:29" took too long (144.557664ms) to execute
