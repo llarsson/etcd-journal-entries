@@ -1,0 +1,12 @@
+-- Logs begin at Tue 2019-10-29 21:05:01 UTC, end at Sat 2019-11-02 06:02:52 UTC. --
+Nov 02 05:41:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:41:41.823685 I | mvcc: store.index: compact 35585115
+Nov 02 05:41:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:41:41.832137 I | mvcc: finished scheduled compaction at 35585115 (took 5.764127ms)
+Nov 02 05:46:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:46:08.945785 N | compactor: Starting auto-compaction at revision 35506727
+Nov 02 05:46:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:46:08.946023 N | compactor: Finished auto-compaction at revision 35506727
+Nov 02 05:46:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:46:41.836346 I | mvcc: store.index: compact 35586754
+Nov 02 05:46:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:46:41.850405 I | mvcc: finished scheduled compaction at 35586754 (took 12.174979ms)
+Nov 02 05:51:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:51:41.848587 I | mvcc: store.index: compact 35587328
+Nov 02 05:51:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:51:41.854875 I | mvcc: finished scheduled compaction at 35587328 (took 4.303748ms)
+Nov 02 05:51:42 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:51:42.076724 W | etcdserver: read-only range request "key:\"/registry/monitoring.coreos.com/alertmanagers\" range_end:\"/registry/monitoring.coreos.com/alertmanagert\" count_only:true " with result "range_response_count:0 size:9" took too long (110.840774ms) to execute
+Nov 02 05:56:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:56:41.860935 I | mvcc: store.index: compact 35587948
+Nov 02 05:56:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-02 05:56:41.867976 I | mvcc: finished scheduled compaction at 35587948 (took 5.572011ms)
