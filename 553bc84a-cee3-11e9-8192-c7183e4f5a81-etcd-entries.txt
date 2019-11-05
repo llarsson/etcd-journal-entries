@@ -1,0 +1,16 @@
+-- Logs begin at Sat 2019-11-02 13:28:51 UTC, end at Tue 2019-11-05 23:06:54 UTC. --
+Nov 05 22:46:19 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 22:46:19.223811 N | compactor: Starting auto-compaction at revision 36330374
+Nov 05 22:46:19 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 22:46:19.224685 N | compactor: Finished auto-compaction at revision 36330374
+Nov 05 22:47:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 22:47:55.570153 I | mvcc: store.index: compact 36409005
+Nov 05 22:47:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 22:47:55.580033 I | mvcc: finished scheduled compaction at 36409005 (took 7.252295ms)
+Nov 05 22:52:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 22:52:55.584139 I | mvcc: store.index: compact 36409725
+Nov 05 22:52:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 22:52:55.589939 I | mvcc: finished scheduled compaction at 36409725 (took 4.594049ms)
+Nov 05 22:57:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 22:57:55.597783 I | mvcc: store.index: compact 36410467
+Nov 05 22:57:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 22:57:55.606979 I | mvcc: finished scheduled compaction at 36410467 (took 7.266163ms)
+Nov 05 23:02:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 23:02:55.674375 I | mvcc: store.index: compact 36411211
+Nov 05 23:02:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 23:02:55.681698 I | mvcc: finished scheduled compaction at 36411211 (took 5.941734ms)
+Nov 05 23:04:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 23:04:53.174991 I | etcdserver: start to snapshot (applied: 40184958, lastsnap: 40174957)
+Nov 05 23:04:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 23:04:53.261280 I | etcdserver: saved snapshot at index 40184958
+Nov 05 23:04:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 23:04:53.261566 I | etcdserver: compacted raft log at 40179958
+Nov 05 23:05:03 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 23:05:03.889647 W | etcdserver: read-only range request "key:\"/registry/minions/openhouse-demo-k8s-node-1\" " with result "range_response_count:1 size:5352" took too long (105.26127ms) to execute
+Nov 05 23:05:09 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 23:05:09.717828 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000017-0000000002646929.snap successfully
