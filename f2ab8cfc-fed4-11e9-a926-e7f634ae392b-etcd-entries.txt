@@ -1,0 +1,15 @@
+-- Logs begin at Sat 2019-11-02 08:56:48 UTC, end at Tue 2019-11-05 19:47:29 UTC. --
+Nov 05 19:27:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:27:53.637563 I | mvcc: store.index: compact 36375466
+Nov 05 19:27:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:27:53.649967 I | mvcc: finished scheduled compaction at 36375466 (took 10.365879ms)
+Nov 05 19:30:38 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:30:38.519844 W | etcdserver: request "header:<ID:14919139277661146982 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > txn:<compare:<target:MOD key:\"/registry/pods/default/backend-844b95fc6f-dfz75\" mod_revision:36376738 > success:<request_put:<key:\"/registry/pods/default/backend-844b95fc6f-dfz75\" value_size:1425 >> failure:<request_range:<key:\"/registry/pods/default/backend-844b95fc6f-dfz75\" > >>" with result "size:20" took too long (114.625878ms) to execute
+Nov 05 19:31:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:31:51.857887 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/prometheus-operator-prometheus-token-bcwsw\" " with result "range_response_count:1 size:2448" took too long (112.146681ms) to execute
+Nov 05 19:32:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:32:53.700020 I | mvcc: store.index: compact 36376314
+Nov 05 19:32:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:32:53.708383 I | mvcc: finished scheduled compaction at 36376314 (took 6.652256ms)
+Nov 05 19:33:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:33:40.316550 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/coredns-token-hmdjn\" " with result "range_response_count:1 size:2283" took too long (165.233275ms) to execute
+Nov 05 19:34:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:34:53.020858 I | wal: segmented wal file /var/lib/etcd/member/wal/000000000000051c-0000000002649b07.wal is created
+Nov 05 19:35:10 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:35:10.174165 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/0000000000000517-00000000026212b1.wal successfully
+Nov 05 19:37:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:37:53.717121 I | mvcc: store.index: compact 36377191
+Nov 05 19:37:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:37:53.723582 I | mvcc: finished scheduled compaction at 36377191 (took 5.380954ms)
+Nov 05 19:42:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:42:53.729513 I | mvcc: store.index: compact 36378073
+Nov 05 19:42:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:42:53.735701 I | mvcc: finished scheduled compaction at 36378073 (took 5.260131ms)
+Nov 05 19:45:23 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-05 19:45:23.022504 W | etcdserver: read-only range request "key:\"/registry/horizontalpodautoscalers/default/\" range_end:\"/registry/horizontalpodautoscalers/default0\" limit:500 " with result "range_response_count:1 size:1406" took too long (495.551696ms) to execute
