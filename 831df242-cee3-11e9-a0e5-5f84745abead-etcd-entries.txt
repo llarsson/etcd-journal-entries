@@ -1,0 +1,17 @@
+-- Logs begin at Sun 2019-11-03 14:02:52 UTC, end at Wed 2019-11-06 18:55:13 UTC. --
+Nov 06 18:33:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:33:07.547589 I | mvcc: store.index: compact 36607518
+Nov 06 18:33:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:33:07.555311 I | mvcc: finished scheduled compaction at 36607518 (took 5.123522ms)
+Nov 06 18:38:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:38:07.657306 I | mvcc: store.index: compact 36608289
+Nov 06 18:38:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:38:07.658916 W | etcdserver: request "header:<ID:14919139277662083623 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > compaction:<revision:36608289 > " with result "size:7" took too long (101.81209ms) to execute
+Nov 06 18:38:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:38:07.667802 I | mvcc: finished scheduled compaction at 36608289 (took 9.102883ms)
+Nov 06 18:40:48 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:40:48.567993 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/endpoint-controller-token-lfmgk\" " with result "range_response_count:1 size:2367" took too long (242.670703ms) to execute
+Nov 06 18:40:48 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:40:48.568118 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/replicaset-controller-token-6xc9z\" " with result "range_response_count:1 size:2381" took too long (242.661752ms) to execute
+Nov 06 18:40:48 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:40:48.713200 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/deployment-controller-token-lsgcf\" " with result "range_response_count:1 size:2381" took too long (128.624458ms) to execute
+Nov 06 18:43:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:43:07.754365 I | mvcc: store.index: compact 36609001
+Nov 06 18:43:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:43:07.761141 I | mvcc: finished scheduled compaction at 36609001 (took 5.587853ms)
+Nov 06 18:46:58 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:46:58.455869 N | compactor: Starting auto-compaction at revision 36534022
+Nov 06 18:46:58 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:46:58.456507 N | compactor: Finished auto-compaction at revision 36534022
+Nov 06 18:48:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:48:07.777977 I | mvcc: store.index: compact 36609791
+Nov 06 18:48:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:48:07.793008 I | mvcc: finished scheduled compaction at 36609791 (took 13.745372ms)
+Nov 06 18:53:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:53:07.830521 I | mvcc: store.index: compact 36610463
+Nov 06 18:53:07 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-06 18:53:07.836101 I | mvcc: finished scheduled compaction at 36610463 (took 4.525366ms)
