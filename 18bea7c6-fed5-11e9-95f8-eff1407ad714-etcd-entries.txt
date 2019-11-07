@@ -1,0 +1,19 @@
+-- Logs begin at Sun 2019-11-03 23:04:18 UTC, end at Thu 2019-11-07 08:32:56 UTC. --
+Nov 07 08:11:11 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:11:11.373489 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/disruption-controller-token-dzc52\" " with result "range_response_count:1 size:2381" took too long (139.891667ms) to execute
+Nov 07 08:12:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:12:08.270411 W | etcdserver: read-only range request "key:\"/registry/deployments\" range_end:\"/registry/deploymentt\" count_only:true " with result "range_response_count:0 size:9" took too long (113.658851ms) to execute
+Nov 07 08:13:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:13:31.482637 I | mvcc: store.index: compact 36743374
+Nov 07 08:13:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:13:31.489247 I | mvcc: finished scheduled compaction at 36743374 (took 4.93139ms)
+Nov 07 08:13:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:13:31.695871 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-scheduler\" " with result "range_response_count:1 size:458" took too long (107.991759ms) to execute
+Nov 07 08:18:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:18:31.539711 I | mvcc: store.index: compact 36744152
+Nov 07 08:18:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:18:31.552724 I | mvcc: finished scheduled compaction at 36744152 (took 9.874071ms)
+Nov 07 08:18:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:18:31.766732 W | etcdserver: read-only range request "key:\"/registry/statefulsets\" range_end:\"/registry/statefulsett\" count_only:true " with result "range_response_count:0 size:9" took too long (139.177872ms) to execute
+Nov 07 08:23:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:23:31.612277 I | mvcc: store.index: compact 36744883
+Nov 07 08:23:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:23:31.620888 I | mvcc: finished scheduled compaction at 36744883 (took 6.764005ms)
+Nov 07 08:23:36 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:23:36.038814 I | etcdserver: start to snapshot (applied: 40544997, lastsnap: 40534996)
+Nov 07 08:23:36 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:23:36.188153 I | etcdserver: saved snapshot at index 40544997
+Nov 07 08:23:36 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:23:36.189047 I | etcdserver: compacted raft log at 40539997
+Nov 07 08:23:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:23:40.986714 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000017-000000000269e790.snap successfully
+Nov 07 08:25:17 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:25:17.188614 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-scheduler\" " with result "range_response_count:1 size:458" took too long (188.79124ms) to execute
+Nov 07 08:25:26 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:25:26.501785 W | etcdserver: read-only range request "key:\"/registry/secrets/istio-system/prometheus-token-kmgpv\" " with result "range_response_count:1 size:2314" took too long (197.177135ms) to execute
+Nov 07 08:28:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:28:31.626392 I | mvcc: store.index: compact 36745573
+Nov 07 08:28:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 08:28:31.633160 I | mvcc: finished scheduled compaction at 36745573 (took 4.845041ms)
