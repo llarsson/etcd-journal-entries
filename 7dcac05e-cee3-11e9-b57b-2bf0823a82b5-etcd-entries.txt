@@ -1,0 +1,19 @@
+-- Logs begin at Mon 2019-11-04 19:08:25 UTC, end at Thu 2019-11-07 23:04:37 UTC. --
+Nov 07 22:43:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:43:54.128809 I | mvcc: store.index: compact 36886458
+Nov 07 22:43:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:43:54.137214 I | mvcc: finished scheduled compaction at 36886458 (took 6.907968ms)
+Nov 07 22:47:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:47:51.833680 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/resourcequota-controller-token-zjj84\" " with result "range_response_count:1 size:2402" took too long (565.090001ms) to execute
+Nov 07 22:47:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:47:51.836208 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (540.808126ms) to execute
+Nov 07 22:47:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:47:51.836640 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/kube-proxy-token-6ncqr\" " with result "range_response_count:1 size:2304" took too long (487.81613ms) to execute
+Nov 07 22:48:02 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:48:02.785666 N | compactor: Starting auto-compaction at revision 36808781
+Nov 07 22:48:02 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:48:02.786034 N | compactor: Finished auto-compaction at revision 36808781
+Nov 07 22:48:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:48:54.143370 I | mvcc: store.index: compact 36888066
+Nov 07 22:48:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:48:54.153727 I | mvcc: finished scheduled compaction at 36888066 (took 8.399088ms)
+Nov 07 22:53:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:53:54.161644 I | mvcc: store.index: compact 36888793
+Nov 07 22:53:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:53:54.170401 I | mvcc: finished scheduled compaction at 36888793 (took 6.302091ms)
+Nov 07 22:57:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:57:35.964383 W | wal: sync duration of 1.951579484s, expected less than 1s
+Nov 07 22:57:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:57:35.970076 W | etcdserver: request "header:<ID:14919139277663194094 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > txn:<compare:<target:MOD key:\"/registry/minions/openhouse-demo-k8s-node-1\" mod_revision:36889759 > success:<request_put:<key:\"/registry/minions/openhouse-demo-k8s-node-1\" value_size:5280 >> failure:<request_range:<key:\"/registry/minions/openhouse-demo-k8s-node-1\" > >>" with result "size:20" took too long (1.956155364s) to execute
+Nov 07 22:57:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:57:35.970911 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (1.282742927s) to execute
+Nov 07 22:58:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:58:54.175117 I | mvcc: store.index: compact 36889386
+Nov 07 22:58:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 22:58:54.182754 I | mvcc: finished scheduled compaction at 36889386 (took 5.81153ms)
+Nov 07 23:00:15 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 23:00:15.934077 W | etcdserver: read-only range request "key:\"/registry/deployments/default/backend\" " with result "range_response_count:1 size:1910" took too long (114.758655ms) to execute
+Nov 07 23:00:15 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-07 23:00:15.936580 W | etcdserver: read-only range request "key:\"/registry/pods/default/backend-844b95fc6f-qrv57\" " with result "range_response_count:1 size:1121" took too long (115.225745ms) to execute
