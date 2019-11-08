@@ -1,0 +1,20 @@
+-- Logs begin at Tue 2019-11-05 22:19:11 UTC, end at Fri 2019-11-08 22:48:44 UTC. --
+Nov 08 22:26:32 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:26:32.801688 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-scheduler\" " with result "range_response_count:1 size:458" took too long (517.907827ms) to execute
+Nov 08 22:27:23 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:27:23.366615 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (193.713482ms) to execute
+Nov 08 22:29:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:29:08.168455 I | wal: segmented wal file /var/lib/etcd/member/wal/0000000000000535-000000000270fc8f.wal is created
+Nov 08 22:29:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:29:08.271551 I | mvcc: store.index: compact 37127890
+Nov 08 22:29:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:29:08.278743 I | mvcc: finished scheduled compaction at 37127890 (took 5.506305ms)
+Nov 08 22:29:14 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:29:14.762531 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/0000000000000530-00000000026e83e5.wal successfully
+Nov 08 22:30:26 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:30:26.505571 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (249.811312ms) to execute
+Nov 08 22:31:19 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:31:19.319140 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/cronjob-controller-token-gdz7c\" " with result "range_response_count:1 size:2360" took too long (374.182256ms) to execute
+Nov 08 22:31:19 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:31:19.319312 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/metrics-server-token-25hqp\" " with result "range_response_count:1 size:2332" took too long (416.631954ms) to execute
+Nov 08 22:31:19 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:31:19.319388 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (533.73119ms) to execute
+Nov 08 22:31:33 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:31:33.552330 W | etcdserver: read-only range request "key:\"/registry/configmaps/kube-system/dns-autoscaler\" " with result "range_response_count:1 size:285" took too long (169.179002ms) to execute
+Nov 08 22:31:33 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:31:33.552456 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (165.656764ms) to execute
+Nov 08 22:34:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:34:08.285071 I | mvcc: store.index: compact 37128769
+Nov 08 22:34:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:34:08.290727 I | mvcc: finished scheduled compaction at 37128769 (took 4.592041ms)
+Nov 08 22:39:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:39:08.297749 I | mvcc: store.index: compact 37129780
+Nov 08 22:39:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:39:08.304555 I | mvcc: finished scheduled compaction at 37129780 (took 5.567765ms)
+Nov 08 22:44:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:44:08.310088 I | mvcc: store.index: compact 37130618
+Nov 08 22:44:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:44:08.316101 I | mvcc: finished scheduled compaction at 37130618 (took 5.122389ms)
+Nov 08 22:46:47 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-08 22:46:47.799431 W | etcdserver: read-only range request "key:\"/registry/services/specs\" range_end:\"/registry/services/spect\" count_only:true " with result "range_response_count:0 size:9" took too long (185.649998ms) to execute
