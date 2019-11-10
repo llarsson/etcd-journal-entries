@@ -1,0 +1,14 @@
+-- Logs begin at Wed 2019-11-06 23:58:34 UTC, end at Sun 2019-11-10 02:34:56 UTC. --
+Nov 10 02:13:46 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:13:46.814126 W | etcdserver: read-only range request "key:\"/registry/volumeattachments\" range_end:\"/registry/volumeattachmentt\" count_only:true " with result "range_response_count:0 size:7" took too long (226.266941ms) to execute
+Nov 10 02:14:24 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:14:24.773867 I | mvcc: store.index: compact 37403626
+Nov 10 02:14:24 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:14:24.781406 I | mvcc: finished scheduled compaction at 37403626 (took 6.351576ms)
+Nov 10 02:18:17 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:18:17.481199 W | etcdserver: read-only range request "key:\"/registry/replicasets/default/backend-844b95fc6f\" " with result "range_response_count:1 size:1063" took too long (109.038813ms) to execute
+Nov 10 02:19:24 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:19:24.785934 I | mvcc: store.index: compact 37404333
+Nov 10 02:19:24 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:19:24.794050 I | mvcc: finished scheduled compaction at 37404333 (took 6.254245ms)
+Nov 10 02:19:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:19:25.024799 W | etcdserver: read-only range request "key:\"/registry/events/default/backend-844b95fc6f-6j9kd.15d5ab9313f1a839\" " with result "range_response_count:1 size:465" took too long (138.762045ms) to execute
+Nov 10 02:22:53 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:22:53.932285 I | wal: segmented wal file /var/lib/etcd/member/wal/000000000000053e-0000000002758cb5.wal is created
+Nov 10 02:23:16 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:23:16.594277 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/0000000000000539-000000000272fb4c.wal successfully
+Nov 10 02:24:24 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:24:24.807437 I | mvcc: store.index: compact 37405213
+Nov 10 02:24:24 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:24:24.815450 I | mvcc: finished scheduled compaction at 37405213 (took 6.560474ms)
+Nov 10 02:29:24 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:29:24.825313 I | mvcc: store.index: compact 37406177
+Nov 10 02:29:24 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-10 02:29:24.831807 I | mvcc: finished scheduled compaction at 37406177 (took 5.136039ms)
