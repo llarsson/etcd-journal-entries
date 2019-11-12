@@ -1,0 +1,20 @@
+-- Logs begin at Sat 2019-11-09 17:59:19 UTC, end at Tue 2019-11-12 03:47:21 UTC. --
+Nov 12 03:25:31 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:25:31.701454 I | wal: segmented wal file /var/lib/etcd/member/wal/000000000000054e-00000000027db300.wal is created
+Nov 12 03:25:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:25:40.114139 I | mvcc: store.index: compact 37898764
+Nov 12 03:25:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:25:40.120369 I | mvcc: finished scheduled compaction at 37898764 (took 5.217084ms)
+Nov 12 03:25:49 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:25:49.619382 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/0000000000000549-00000000027b2294.wal successfully
+Nov 12 03:29:55 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:29:55.910337 W | etcdserver: request "header:<ID:14919139277667192643 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > txn:<compare:<target:MOD key:\"/registry/events/default/backend-844b95fc6f-nmcjf.15d64ca417786209\" mod_revision:0 > success:<request_put:<key:\"/registry/events/default/backend-844b95fc6f-nmcjf.15d64ca417786209\" value_size:363 lease:5695767240812416790 >> failure:<>>" with result "size:20" took too long (232.599928ms) to execute
+Nov 12 03:30:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:30:40.127025 I | mvcc: store.index: compact 37899394
+Nov 12 03:30:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:30:40.131652 I | mvcc: finished scheduled compaction at 37899394 (took 3.681388ms)
+Nov 12 03:35:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:35:40.139832 I | mvcc: store.index: compact 37900220
+Nov 12 03:35:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:35:40.155060 I | mvcc: finished scheduled compaction at 37900220 (took 14.2305ms)
+Nov 12 03:35:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:35:40.309057 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (119.866347ms) to execute
+Nov 12 03:40:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:40:40.152077 I | mvcc: store.index: compact 37901056
+Nov 12 03:40:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:40:40.158426 I | mvcc: finished scheduled compaction at 37901056 (took 5.432508ms)
+Nov 12 03:43:26 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:43:26.549880 I | etcdserver: start to snapshot (applied: 41795136, lastsnap: 41785135)
+Nov 12 03:43:26 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:43:26.634349 I | etcdserver: saved snapshot at index 41795136
+Nov 12 03:43:26 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:43:26.635422 I | etcdserver: compacted raft log at 41790136
+Nov 12 03:43:48 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:43:48.128070 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000017-00000000027cfaeb.snap successfully
+Nov 12 03:45:21 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:45:21.229102 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (119.793652ms) to execute
+Nov 12 03:45:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:45:40.165130 I | mvcc: store.index: compact 37901726
+Nov 12 03:45:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-11-12 03:45:40.171699 I | mvcc: finished scheduled compaction at 37901726 (took 5.064877ms)
