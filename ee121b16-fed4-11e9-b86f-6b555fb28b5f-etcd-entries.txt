@@ -1,0 +1,17 @@
+-- Logs begin at Sun 2019-12-15 09:07:23 UTC, end at Tue 2019-12-17 00:53:13 UTC. --
+Dec 17 00:34:21 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:34:21.907002 I | mvcc: store.index: compact 44430578
+Dec 17 00:34:21 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:34:21.913533 I | mvcc: finished scheduled compaction at 44430578 (took 5.059121ms)
+Dec 17 00:36:33 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:36:33.220046 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/kube-proxy-token-6ncqr\" " with result "range_response_count:1 size:2304" took too long (180.863591ms) to execute
+Dec 17 00:36:33 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:36:33.220243 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/generic-garbage-collector-token-j8g64\" " with result "range_response_count:1 size:2409" took too long (150.733996ms) to execute
+Dec 17 00:39:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:39:22.009340 I | mvcc: store.index: compact 44431317
+Dec 17 00:39:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:39:22.016093 I | mvcc: finished scheduled compaction at 44431317 (took 5.19358ms)
+Dec 17 00:44:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:44:22.024656 I | mvcc: store.index: compact 44432067
+Dec 17 00:44:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:44:22.034017 I | mvcc: finished scheduled compaction at 44432067 (took 8.132782ms)
+Dec 17 00:49:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:49:22.052444 I | wal: segmented wal file /var/lib/etcd/member/wal/0000000000000625-0000000002eb9108.wal is created
+Dec 17 00:49:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:49:22.115447 I | mvcc: store.index: compact 44432732
+Dec 17 00:49:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:49:22.125764 I | mvcc: finished scheduled compaction at 44432732 (took 8.60246ms)
+Dec 17 00:49:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:49:22.680834 W | etcdserver: read-only range request "key:\"/registry/namespaces/default\" " with result "range_response_count:1 size:205" took too long (407.623858ms) to execute
+Dec 17 00:49:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:49:22.680931 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/disruption-controller-token-dzc52\" " with result "range_response_count:1 size:2381" took too long (349.588168ms) to execute
+Dec 17 00:49:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:49:22.681016 W | etcdserver: request "header:<ID:14919139277705107438 username:\"etcd-node-openhouse-demo-k8s-master-1\" auth_revision:1 > txn:<compare:<target:MOD key:\"/registry/minions/openhouse-demo-k8s-master-1\" mod_revision:44433275 > success:<request_put:<key:\"/registry/minions/openhouse-demo-k8s-master-1\" value_size:4682 >> failure:<request_range:<key:\"/registry/minions/openhouse-demo-k8s-master-1\" > >>" with result "size:20" took too long (173.038661ms) to execute
+Dec 17 00:49:22 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:49:22.681236 W | etcdserver: read-only range request "key:\"/registry/horizontalpodautoscalers\" range_end:\"/registry/horizontalpodautoscalert\" count_only:true " with result "range_response_count:0 size:9" took too long (411.633752ms) to execute
+Dec 17 00:49:40 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-17 00:49:40.948139 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/0000000000000620-0000000002e917c2.wal successfully
