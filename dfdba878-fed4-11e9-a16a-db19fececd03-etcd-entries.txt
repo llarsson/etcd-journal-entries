@@ -1,0 +1,11 @@
+-- Logs begin at Mon 2019-12-16 09:46:59 UTC, end at Wed 2019-12-18 01:47:43 UTC. --
+Dec 18 01:29:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:29:51.120636 I | mvcc: store.index: compact 44682195
+Dec 18 01:29:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:29:51.128902 I | mvcc: finished scheduled compaction at 44682195 (took 4.326165ms)
+Dec 18 01:30:49 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:30:49.370835 W | etcdserver: read-only range request "key:\"/registry/config.istio.io/stdios\" range_end:\"/registry/config.istio.io/stdiot\" count_only:true " with result "range_response_count:0 size:7" took too long (117.620523ms) to execute
+Dec 18 01:34:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:34:51.137268 I | mvcc: store.index: compact 44682936
+Dec 18 01:34:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:34:51.146130 I | mvcc: finished scheduled compaction at 44682936 (took 6.650487ms)
+Dec 18 01:34:54 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:34:54.288423 W | etcdserver: read-only range request "key:\"/registry/replicasets\" range_end:\"/registry/replicasett\" count_only:true " with result "range_response_count:0 size:9" took too long (348.991388ms) to execute
+Dec 18 01:39:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:39:51.154742 I | mvcc: store.index: compact 44683694
+Dec 18 01:39:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:39:51.162380 I | mvcc: finished scheduled compaction at 44683694 (took 6.094864ms)
+Dec 18 01:44:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:44:51.169091 I | mvcc: store.index: compact 44684296
+Dec 18 01:44:51 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-18 01:44:51.175883 I | mvcc: finished scheduled compaction at 44684296 (took 4.819547ms)
