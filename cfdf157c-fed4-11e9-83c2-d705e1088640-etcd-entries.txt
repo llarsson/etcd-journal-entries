@@ -1,0 +1,12 @@
+-- Logs begin at Tue 2019-12-17 13:42:37 UTC, end at Thu 2019-12-19 01:03:18 UTC. --
+Dec 19 00:40:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:40:25.339847 I | mvcc: store.index: compact 44920598
+Dec 19 00:40:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:40:25.347285 I | mvcc: finished scheduled compaction at 44920598 (took 5.60851ms)
+Dec 19 00:45:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:45:25.415337 I | mvcc: store.index: compact 44921370
+Dec 19 00:45:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:45:25.423080 I | mvcc: finished scheduled compaction at 44921370 (took 6ms)
+Dec 19 00:50:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:50:25.492211 I | mvcc: store.index: compact 44922064
+Dec 19 00:50:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:50:25.499311 I | mvcc: finished scheduled compaction at 44922064 (took 5.325289ms)
+Dec 19 00:54:36 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:54:36.752533 W | etcdserver: read-only range request "key:\"/registry/deployments/istio-system/istio-egressgateway\" " with result "range_response_count:1 size:5908" took too long (103.321358ms) to execute
+Dec 19 00:55:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:55:25.505677 I | mvcc: store.index: compact 44922777
+Dec 19 00:55:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 00:55:25.512819 I | mvcc: finished scheduled compaction at 44922777 (took 5.834239ms)
+Dec 19 01:00:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 01:00:25.536421 I | mvcc: store.index: compact 44923371
+Dec 19 01:00:25 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-19 01:00:25.543626 I | mvcc: finished scheduled compaction at 44923371 (took 5.96024ms)
