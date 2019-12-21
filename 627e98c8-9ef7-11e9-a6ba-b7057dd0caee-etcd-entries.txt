@@ -1,0 +1,22 @@
+-- Logs begin at Fri 2019-12-20 08:29:15 UTC, end at Sat 2019-12-21 18:56:42 UTC. --
+Dec 21 18:34:08 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:34:08.548632 W | etcdserver: read-only range request "key:\"/registry/deployments/kube-system/metrics-server-v0.3.1\" " with result "range_response_count:0 size:7" took too long (142.196764ms) to execute
+Dec 21 18:36:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:36:35.307388 I | mvcc: store.index: compact 45602294
+Dec 21 18:36:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:36:35.318202 I | mvcc: finished scheduled compaction at 45602294 (took 7.874967ms)
+Dec 21 18:36:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:36:35.597174 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/generic-garbage-collector-token-j8g64\" " with result "range_response_count:1 size:2409" took too long (207.357132ms) to execute
+Dec 21 18:36:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:36:35.597681 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/pod-garbage-collector-token-2gv9p\" " with result "range_response_count:1 size:2381" took too long (193.387609ms) to execute
+Dec 21 18:40:33 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:40:33.803067 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-scheduler\" " with result "range_response_count:1 size:458" took too long (318.657156ms) to execute
+Dec 21 18:41:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:41:35.319748 I | mvcc: store.index: compact 45604267
+Dec 21 18:41:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:41:35.332026 I | mvcc: finished scheduled compaction at 45604267 (took 9.827299ms)
+Dec 21 18:41:36 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:41:36.045506 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/pod-garbage-collector-token-2gv9p\" " with result "range_response_count:1 size:2381" took too long (226.001318ms) to execute
+Dec 21 18:41:36 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:41:36.045657 W | etcdserver: read-only range request "key:\"/registry/secrets/kube-system/prometheus-operator-kube-state-metrics-token-52n8d\" " with result "range_response_count:1 size:2504" took too long (372.440081ms) to execute
+Dec 21 18:41:36 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:41:36.045750 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (327.628007ms) to execute
+Dec 21 18:43:42 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:43:42.654907 I | etcdserver: start to snapshot (applied: 50256172, lastsnap: 50246171)
+Dec 21 18:43:42 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:43:42.738609 I | etcdserver: saved snapshot at index 50256172
+Dec 21 18:43:42 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:43:42.738881 I | etcdserver: compacted raft log at 50251172
+Dec 21 18:43:47 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:43:47.716457 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000017-0000000002fe15d7.snap successfully
+Dec 21 18:46:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:46:35.374682 I | mvcc: store.index: compact 45605031
+Dec 21 18:46:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:46:35.381864 I | mvcc: finished scheduled compaction at 45605031 (took 5.600755ms)
+Dec 21 18:49:41 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:49:41.040563 I | wal: segmented wal file /var/lib/etcd/member/wal/000000000000064a-0000000002fedcbc.wal is created
+Dec 21 18:49:48 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:49:48.191730 I | pkg/fileutil: purged file /var/lib/etcd/member/wal/0000000000000645-0000000002fc43be.wal successfully
+Dec 21 18:51:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:51:35.389131 I | mvcc: store.index: compact 45605719
+Dec 21 18:51:35 openhouse-demo-k8s-master-1 etcd[6343]: 2019-12-21 18:51:35.396817 I | mvcc: finished scheduled compaction at 45605719 (took 5.290442ms)
