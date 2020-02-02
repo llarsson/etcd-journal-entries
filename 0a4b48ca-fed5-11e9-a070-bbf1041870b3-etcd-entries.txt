@@ -1,0 +1,20 @@
+-- Logs begin at Sat 2020-02-01 01:29:37 UTC, end at Sun 2020-02-02 16:45:35 UTC. --
+Feb 02 16:24:51 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:24:51.938379 I | mvcc: store.index: compact 53464273
+Feb 02 16:24:51 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:24:51.944332 I | mvcc: finished scheduled compaction at 53464273 (took 4.135908ms)
+Feb 02 16:25:23 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:25:23.677657 N | compactor: Starting auto-compaction at revision 53388754
+Feb 02 16:25:23 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:25:23.678402 N | compactor: Finished auto-compaction at revision 53388754
+Feb 02 16:29:52 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:29:52.035521 I | mvcc: store.index: compact 53464939
+Feb 02 16:29:52 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:29:52.041955 I | mvcc: finished scheduled compaction at 53464939 (took 4.396036ms)
+Feb 02 16:34:00 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:34:00.978311 W | etcdserver: read-only range request "key:\"/registry/apiregistration.k8s.io/apiservices/v1beta1.events.k8s.io\" " with result "range_response_count:1 size:646" took too long (229.874798ms) to execute
+Feb 02 16:34:00 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:34:00.978437 W | etcdserver: read-only range request "key:\"/registry/apiregistration.k8s.io/apiservices/v1beta1.policy\" " with result "range_response_count:1 size:625" took too long (229.885379ms) to execute
+Feb 02 16:34:00 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:34:00.978491 W | etcdserver: read-only range request "key:\"/registry/apiregistration.k8s.io/apiservices/v1.batch\" " with result "range_response_count:1 size:608" took too long (229.764277ms) to execute
+Feb 02 16:34:00 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:34:00.978600 W | etcdserver: read-only range request "key:\"/registry/apiregistration.k8s.io/apiservices/v1beta1.extensions\" " with result "range_response_count:1 size:637" took too long (228.560866ms) to execute
+Feb 02 16:34:00 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:34:00.978704 W | etcdserver: read-only range request "key:\"/registry/apiregistration.k8s.io/apiservices/v1.storage.k8s.io\" " with result "range_response_count:1 size:635" took too long (230.05953ms) to execute
+Feb 02 16:34:52 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:34:52.057388 I | mvcc: store.index: compact 53465633
+Feb 02 16:34:52 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:34:52.063992 I | mvcc: finished scheduled compaction at 53465633 (took 5.845901ms)
+Feb 02 16:39:52 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:39:52.148760 I | mvcc: store.index: compact 53466242
+Feb 02 16:39:52 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:39:52.156579 I | mvcc: finished scheduled compaction at 53466242 (took 6.483054ms)
+Feb 02 16:40:46 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:40:46.870937 I | etcdserver: start to snapshot (applied: 58917413, lastsnap: 58907412)
+Feb 02 16:40:47 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:40:47.053073 I | etcdserver: saved snapshot at index 58917413
+Feb 02 16:40:47 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:40:47.053654 I | etcdserver: compacted raft log at 58912413
+Feb 02 16:41:00 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 16:41:00.004620 I | pkg/fileutil: purged file /var/lib/etcd/member/snap/0000000000000017-0000000003823ed0.snap successfully
