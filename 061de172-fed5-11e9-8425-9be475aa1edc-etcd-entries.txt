@@ -1,0 +1,15 @@
+-- Logs begin at Sat 2020-02-01 01:29:37 UTC, end at Sun 2020-02-02 13:28:11 UTC. --
+Feb 02 13:09:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:09:50.663249 I | mvcc: store.index: compact 53435915
+Feb 02 13:09:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:09:50.669002 I | mvcc: finished scheduled compaction at 53435915 (took 4.273537ms)
+Feb 02 13:14:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:14:50.676304 I | mvcc: store.index: compact 53436690
+Feb 02 13:14:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:14:50.681771 I | mvcc: finished scheduled compaction at 53436690 (took 4.464819ms)
+Feb 02 13:14:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:14:50.860375 W | etcdserver: request "header:<ID:14919139277752258760 > lease_revoke:<id:4f0b6e20cd005064>" with result "size:29" took too long (117.185119ms) to execute
+Feb 02 13:18:27 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:18:27.477951 W | etcdserver: read-only range request "key:\"/registry/monitoring.coreos.com/podmonitors\" range_end:\"/registry/monitoring.coreos.com/podmonitort\" count_only:true " with result "range_response_count:0 size:7" took too long (120.366902ms) to execute
+Feb 02 13:19:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:19:50.689933 I | mvcc: store.index: compact 53437480
+Feb 02 13:19:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:19:50.695116 I | mvcc: finished scheduled compaction at 53437480 (took 4.324759ms)
+Feb 02 13:19:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:19:50.880261 W | etcdserver: read-only range request "key:\"/registry/services/endpoints/kube-system/kube-controller-manager\" " with result "range_response_count:1 size:477" took too long (104.184595ms) to execute
+Feb 02 13:24:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:24:50.722297 I | mvcc: store.index: compact 53438146
+Feb 02 13:24:50 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:24:50.727701 I | mvcc: finished scheduled compaction at 53438146 (took 4.347968ms)
+Feb 02 13:25:23 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:25:23.665161 N | compactor: Starting auto-compaction at revision 53359202
+Feb 02 13:25:23 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:25:23.665789 N | compactor: Finished auto-compaction at revision 53359202
+Feb 02 13:25:24 openhouse-demo-k8s-master-1 etcd[6343]: 2020-02-02 13:25:24.105668 W | etcdserver: read-only range request "key:\"/registry/events/default/backend-844b95fc6f-lggq4.15ef98430557f1c8\" " with result "range_response_count:1 size:488" took too long (366.576182ms) to execute
